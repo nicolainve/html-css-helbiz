@@ -23,6 +23,17 @@ p {
   max-width: 1150px;
 }
 
+.container-big {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.container-big::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .list-inline li {
   display: inline-block;
 }
@@ -64,6 +75,23 @@ p {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.helbizgo,
+.helbizbike {
+}
+
+.products .box {
+  margin: 20px 0;
+  background: #fafafa;
+}
+
+.products p {
+  color: black;
+}
+
+.products img {
+  max-height: 300px;
 }
 
 @media screen and (min-width: 768px) {
