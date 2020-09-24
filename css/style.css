@@ -94,12 +94,107 @@ p {
   max-height: 300px;
 }
 
-@media screen and (min-width: 768px) {
+/* How works */
+.how-works {
+  height: 400px;
+  margin-bottom: 200px;
+  background-image: url("../img/helbiz-banner.jpg");
+  background-size: cover;
+  background-position: left center;
+}
+
+.how-works .col-left,
+.how-works .col-right {
+  margin-top: 450px;
+}
+
+.how-works .col-left {
+  text-align: right;
+}
+
+.how-works .col-left .text {
+  display: inline-block;
+  text-align: left;
+}
+
+.how-works .col-left h3 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.how-works .col-right .text {
+  padding-top: 10px;
+}
+
+
+@media screen and (min-width: 992px) {
   .desktop {
     display: block;
+  }
+
+  .how-works .phone {
+    margin-top: 100px;
+    text-align: center;
+  }
+
+  .how-works .phone img {
+    max-height: 600px;
+    max-width: 100%;
+  }
+
+  .how-works {
+    background-position: center center;
   }
 
   .mobile {
     display: none;
   }
+}
+
+/* Box info */
+
+/* mobility */
+.mobility {
+  height: 400px;
+  margin-top: 100px;
+  background-image: url("../img/scooter-bg.jpg");
+  background-size: cover;
+}
+
+/* app */
+.app {
+  height: 400px;
+  background-image: url("../img/helbiz-app.png");
+  background-size: cover;
+}
+
+/* find */
+.find {
+  height: 400px;
+  background-image: url("../img/cities.jpg");
+  background-size: cover;
+}
+
+/* social banner */
+.social-banner {
+  position: relative;
+  height: 300px;
+  background-image: url("../img/social-banner.jpg");
+  background-size: cover;
+}
+
+.social-banner .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 30px;
+}
+
+/* FOOTER */
+
+footer {
+  background: black;
+  height: 300px;
 }
