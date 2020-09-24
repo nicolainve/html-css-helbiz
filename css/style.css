@@ -1,0 +1,41 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.header-nav a {
+  color: #3f3f3f;
+  line-height: 60px;
+  font-size: 12px;
+}
+
+.header-nav .menu li {
+  padding: 0 10px;
+}
+
+.header-nav img {
+  vertical-align: middle;
+}
+
+
+@media screen and (min-width: 768px) {
+  .desktop {
+    display: block;
+  }
+}
