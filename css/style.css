@@ -10,6 +10,12 @@ h1 {
   margin: 30px;
 }
 
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 a {
   text-decoration: none;
   color: white;
@@ -217,5 +223,18 @@ p {
 
 footer {
   background: black;
-  height: 300px;
+}
+
+footer h5 {
+  color: white;
+}
+
+.columns-menu {
+  padding: 10px 0;
+  border-bottom: 1px solid white;
+}
+
+footer .link {
+  padding: 10px 0;
+  border-bottom: 1px solid white;
 }
